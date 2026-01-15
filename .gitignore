@@ -1,0 +1,82 @@
+# =====================================
+# JetBrains / CLion
+# =====================================
+.idea/
+*.iml
+
+# =====================================
+# CMake build folders
+# =====================================
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+CMakeScripts/
+Testing/
+CTestTestfile.cmake
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+
+# =====================================
+# Build outputs / binaries
+# =====================================
+bin/
+
+# =====================================
+# Python integration (if any)
+# =====================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+.env/
+.venv/
+venv/
+env/
+pip-log.txt
+*.egg-info/
+dist/
+build/
+.eggs/
+*.manifest
+*.spec
+
+# =====================================
+# Logs, temporary files & editor junk
+# =====================================
+*.log
+*.tmp
+*.swp
+*.swo
+*.DS_Store
+*.stackdump
+*.orig
+*~
+*.bak
+*.old
+*.rej
+
+# =====================================
+# Cache / profiling / analysis
+# =====================================
+.clangd/
+.clang-tidy
+.clang-format
+.cache/
+.vscode/
+.idea_modules/
+cmake-build-debug/
+cmake-build-release/
+cmake-build-relwithdebinfo/
+cmake-build-minsizerel/
+
+# =====================================
+# OS junk files
+# =====================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+log

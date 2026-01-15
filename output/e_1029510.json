@@ -1,0 +1,30 @@
+{
+  "map": "E",
+  "score": 1029510,
+  "execution_time_minutes": 654.8058,
+  "local_search": true,
+  "iterations": 100,
+  "seed": 1884753645,
+  "fixed_param": "fix-ownership-factor",
+  "initial_params": {
+    "task_efficiency_weight": 1.0,
+    "distance_penalty": 1.0,
+    "ownership_distance_factor": 2.0,
+    "path_cost_threshold": 1.0,
+    "bfs_randomness": 0.5
+  },
+  "final_params": {
+    "task_efficiency_weight": 0.7061,
+    "distance_penalty": 1.1527,
+    "ownership_distance_factor": 2.0,
+    "path_cost_threshold": 1.1794,
+    "bfs_randomness": 0.2816
+  },
+  "fix_flags": {
+    "fix_task_eff": false,
+    "fix_dist_penalty": false,
+    "fix_ownership": true,
+    "fix_path_threshold": false,
+    "fix_bfs_random": false
+  }
+}
